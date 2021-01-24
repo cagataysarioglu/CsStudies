@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPTwo", "OOPTwo\OOPTwo.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary", "Dictionary\Dictionary.csproj", "{8F93E9AF-1BFD-4C45-BDB9-72E96FDD79D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoucherSystem", "VoucherSystem\VoucherSystem.csproj", "{553C59D8-225C-4723-A15B-DFB0CC192EFB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{8F93E9AF-1BFD-4C45-BDB9-72E96FDD79D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F93E9AF-1BFD-4C45-BDB9-72E96FDD79D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F93E9AF-1BFD-4C45-BDB9-72E96FDD79D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{553C59D8-225C-4723-A15B-DFB0CC192EFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{553C59D8-225C-4723-A15B-DFB0CC192EFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{553C59D8-225C-4723-A15B-DFB0CC192EFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{553C59D8-225C-4723-A15B-DFB0CC192EFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
