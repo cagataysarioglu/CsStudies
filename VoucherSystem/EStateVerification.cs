@@ -6,10 +6,9 @@ namespace VoucherSystem
 {
     class EStateVerification
     {
-        public int Id { get; set; }
-        public string TaxpayerNo { get; set; }
-        public string Name { get; set; }
-        public string Surname { get; set; }
-        public int BirthYear { get; set; }
+        public string GiveInfo(Player player)
+        {
+            return player.TaxpayerNo;
+        }
     }
 }

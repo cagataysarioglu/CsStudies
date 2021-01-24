@@ -4,21 +4,11 @@ using System.Text;
 
 namespace VoucherSystem
 {
-    class Player : IPlayerService
+    class Player : PlayerManager
     {
-        public void Register()
-        {
-            Console.WriteLine("Oyuncu kaydedildi.");
-        }
-
-        public void Update()
-        {
-            Console.WriteLine("Oyuncu bilgileri güncellendi.");
-        }
-
-        public void Delete()
-        {
-            Console.WriteLine("Oyuncu verileri silindi.");
-        }
+        public int Id { get; set; }
+        public string TaxpayerNo { get; set; }
+        public string Name { get; set; }
+        public string Surname { get; set; }
     }
 }

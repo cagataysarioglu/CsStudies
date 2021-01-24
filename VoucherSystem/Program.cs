@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace VoucherSystem
 {
@@ -6,22 +7,22 @@ namespace VoucherSystem
     {
         static void Main(string[] args)
         {
-            GameSeller gameSeller = new GameSeller
+            Player playerOne = new Player
             {
-                Id = 40, TaxpayerNo = "3758906", BirthYear = 1990, Name = "Sencer", Surname = "Kapganoğlu"
+                Id = 3,
+                Name = "Çağatay",
+                Surname = "Sarıoğlu",
+                TaxpayerNo = "743918",
             };
 
-            Player playerOne = new Player();
-            playerOne.Register();
-            playerOne.Update();
-        }
-    }
+            GameSeller gameSeller = new GameSeller();
+            EStateVerification verifier = new EStateVerification();
 
-    class SalesManager
-    {
-        static void Sell(IPlayerService player)
-        {
-            Console.WriteLine(player + "için satış yapıldı.");
+            if (verifier.GiveInfo(playerOne) == playerOne.TaxpayerNo)
+            {
+                IPlayerService playerManager = new PlayerManager();
+                playerManager.Register();
+            }
         }
     }
 }

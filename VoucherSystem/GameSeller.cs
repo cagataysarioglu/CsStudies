@@ -4,11 +4,11 @@ using System.Text;
 
 namespace VoucherSystem
 {
-    class GameSeller : EStateVerification
+    class GameSeller
     {
-        public void Check(IPlayerService player)
+        public void Check(EStateVerification player)
         {
-            Console.WriteLine(player + "bilgileri doğrulandı.");
+            Console.WriteLine("Oyuncunun ilgili vergi numarası" + player);
         }
     }
 }
