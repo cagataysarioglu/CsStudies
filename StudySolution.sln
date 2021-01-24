@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOPOne", "OOPOne\OOPOne.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPTwo", "OOPTwo\OOPTwo.csproj", "{840C886B-684B-4B33-8200-EDCA86FD7BB4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary", "Dictionary\Dictionary.csproj", "{8F93E9AF-1BFD-4C45-BDB9-72E96FDD79D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{840C886B-684B-4B33-8200-EDCA86FD7BB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{840C886B-684B-4B33-8200-EDCA86FD7BB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{840C886B-684B-4B33-8200-EDCA86FD7BB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F93E9AF-1BFD-4C45-BDB9-72E96FDD79D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F93E9AF-1BFD-4C45-BDB9-72E96FDD79D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F93E9AF-1BFD-4C45-BDB9-72E96FDD79D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F93E9AF-1BFD-4C45-BDB9-72E96FDD79D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
