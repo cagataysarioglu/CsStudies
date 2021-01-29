@@ -5,11 +5,13 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOPOne", "OOPOne\OOPOne.csproj", "{E13144D5-B6C3-41D8-8BA0-F9411B91744B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPTwo", "OOPTwo\OOPTwo.csproj", "{840C886B-684B-4B33-8200-EDCA86FD7BB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOPTwo", "OOPTwo\OOPTwo.csproj", "{840C886B-684B-4B33-8200-EDCA86FD7BB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary", "Dictionary\Dictionary.csproj", "{8F93E9AF-1BFD-4C45-BDB9-72E96FDD79D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dictionary", "Dictionary\Dictionary.csproj", "{8F93E9AF-1BFD-4C45-BDB9-72E96FDD79D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoucherSystem", "VoucherSystem\VoucherSystem.csproj", "{553C59D8-225C-4723-A15B-DFB0CC192EFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VoucherSystem", "VoucherSystem\VoucherSystem.csproj", "{553C59D8-225C-4723-A15B-DFB0CC192EFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLConnection", "SQLConnection\SQLConnection.csproj", "{FC3437EC-B0DF-4412-AEC9-FD535485D17E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{553C59D8-225C-4723-A15B-DFB0CC192EFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{553C59D8-225C-4723-A15B-DFB0CC192EFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{553C59D8-225C-4723-A15B-DFB0CC192EFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC3437EC-B0DF-4412-AEC9-FD535485D17E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC3437EC-B0DF-4412-AEC9-FD535485D17E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC3437EC-B0DF-4412-AEC9-FD535485D17E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC3437EC-B0DF-4412-AEC9-FD535485D17E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
