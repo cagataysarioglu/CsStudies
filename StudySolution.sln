@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dictionary", "Dictionary\Di
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VoucherSystem", "VoucherSystem\VoucherSystem.csproj", "{553C59D8-225C-4723-A15B-DFB0CC192EFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLConnection", "SQLConnection\SQLConnection.csproj", "{FC3437EC-B0DF-4412-AEC9-FD535485D17E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQLConnection", "SQLConnection\SQLConnection.csproj", "{FC3437EC-B0DF-4412-AEC9-FD535485D17E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqStudy", "LinqStudy\LinqStudy.csproj", "{91FDB022-EA23-41F6-8506-6F1F8D3ACF37}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{FC3437EC-B0DF-4412-AEC9-FD535485D17E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC3437EC-B0DF-4412-AEC9-FD535485D17E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC3437EC-B0DF-4412-AEC9-FD535485D17E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91FDB022-EA23-41F6-8506-6F1F8D3ACF37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91FDB022-EA23-41F6-8506-6F1F8D3ACF37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91FDB022-EA23-41F6-8506-6F1F8D3ACF37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91FDB022-EA23-41F6-8506-6F1F8D3ACF37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
