@@ -23,6 +23,10 @@ namespace LinqStudy
                 new Product{ ProductId = 5, CategoryId = 2, ProductName = "VENUS V7", Quantity = "2.0 GHz", UnitPrice = 2500, UnitsInStock = 11}
             };
 
+            //ClassicLinq(products);
+
+            //JoinLinq(products, categories);
+
             //Algorithmical
             foreach (var product in products)
             {
@@ -40,6 +44,35 @@ namespace LinqStudy
                 Console.WriteLine(product.ProductName);
             }
             GetProductsLinq(products);
+        }
+
+        private static void JoinLinq(List<Product> products, List<Category> categories)
+        {
+            var join_linq_result = from p in products
+                                   join c in categories on p.CategoryId equals c.CategoryId
+                                   select new ProductDto
+                                   {
+                                       ProductId = p.ProductId,
+                                       ProductName = p.ProductName,
+                                       UnitPrice = p.UnitPrice,
+                                       CategoryName = c.CategoryName
+                                   };
+            foreach (var productDto in join_linq_result)
+            {
+                Console.WriteLine("{0}: {1}", productDto.ProductName, productDto.CategoryName);
+            }
+        }
+
+        private static void ClassicLinq(List<Product> products)
+        {
+            var classic_linq_result = from p in products
+                                      where p.UnitPrice > 6000
+                                      orderby p.UnitPrice descending, p.ProductName ascending
+                                      select new ProductDto { ProductId = p.ProductId, ProductName = p.ProductName, UnitPrice = p.UnitPrice };
+            foreach (var product in classic_linq_result)
+            {
+                Console.WriteLine(product.ProductName);
+            }
         }
 
         //Algorithmical
@@ -61,6 +94,14 @@ namespace LinqStudy
         {
             return products.Where(product => product.UnitPrice > 5000 && product.UnitsInStock < 25).ToList();
         }
+    }
+
+    class ProductDto
+    {
+        public int ProductId { get; set; }
+        public string ProductName { get; set; }
+        public string CategoryName { get; set; }
+        public decimal UnitPrice { get; set; }
     }
 
     class Product
