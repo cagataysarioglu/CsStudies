@@ -13,14 +13,11 @@ namespace DataAccess.Concrete.EntityFramework
     {
         public void Add(Car entity)
         {
-            if (entity.DailyPrice > 0)
+            using (NorthwindContext context = new NorthwindContext())
             {
-                using (NorthwindContext context = new NorthwindContext())
-                {
-                    var addedEntity = context.Entry(entity);
-                    addedEntity.State = EntityState.Added;
-                    context.SaveChanges();
-                }
+                var addedEntity = context.Entry(entity);
+                addedEntity.State = EntityState.Added;
+                context.SaveChanges();
             }
         }
 
