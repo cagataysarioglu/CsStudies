@@ -2,6 +2,7 @@
 using Business.Concrete;
 using DataAccess.Concrete.EntityFramework;
 using DataAccess.Concrete.InMemory;
+using Entities.Concrete;
 
 namespace ConsoleUI
 {
@@ -20,6 +21,8 @@ namespace ConsoleUI
             {
                 Console.WriteLine(car.ModelYear);
             }
+
+            carManager.Add(new Car{BrandId = 2, ColorId = 1, DailyPrice = 290, ModelYear = 2019, Description = "Aile arabası."});
         }
     }
 }
